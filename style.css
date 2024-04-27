@@ -93,6 +93,11 @@ body {
     display: flex;
 }
 
+.D:hover {
+    background-color: #16A94A;
+    color: #1D1F24;
+}
+
 .location {
     display: block;
 }
@@ -148,6 +153,13 @@ body {
     align-items: flex-start;
     min-width: 285px;
     min-height: 370px;
+}
+
+.card1:hover {
+    border: #16A94A 2px solid;
+}
+
+.card2:hover {
     border: #16A94A 2px solid;
 }
 
@@ -209,6 +221,10 @@ footer {
     font-size: 16px;
     cursor: pointer;
     display: flex;
+}
+
+.button--order:hover {
+    background-color: lightblue;
 }
 
 .button--contact {
